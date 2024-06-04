@@ -105,8 +105,13 @@ main{
   display: flex ;
   justify-content: center;
   align-items: center;
-  border: 1px solid white;
+  
   padding:1rem;
+  border-radius: 50%;
+  
+}
+.projects_contatiner-image_container>img{
+  width: 100%;
   border-radius: 50%;
 }
 .projects_contatiner-links{
@@ -116,6 +121,7 @@ main{
 }
 .projects_contatiner-links > a{
   margin: 1rem;
+  color: white;
 }
 @media (min-width: 768px){
   main{

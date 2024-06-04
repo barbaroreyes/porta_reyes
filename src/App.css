@@ -4,7 +4,10 @@
   box-sizing: border-box;
   background-color:#206682;
 }
-
+a{
+  text-decoration: none;
+  cursor:pointer;
+}
 header{
   
   height: 10vh;
@@ -66,6 +69,13 @@ main{
   color: #ffffff;
   font-size: 1rem;
 }
+.btns:hover{
+  
+  opacity: 0.5;
+  width: 50%;
+  
+  transition: all 1s ease;
+}
 
 @media (min-width: 768px){
   main{
@@ -106,6 +116,7 @@ main{
   }li>a:hover{
      border: 1px solid;
      padding: 1rem;
+     transition: all 1s ease;
      border-radius: 10px;
   }
     
